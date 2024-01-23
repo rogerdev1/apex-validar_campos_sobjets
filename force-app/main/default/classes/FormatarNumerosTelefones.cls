@@ -1,4 +1,5 @@
 public with sharing class FormatarNumerosTelefones {
+    
     public static String formatarNumerosTelefones(String numero) {
         String numeroLimpo = numero.replaceAll('\\D', '');
         if (numeroLimpo.length() == 12 && numeroLimpo.startsWith('55')) {
