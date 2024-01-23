@@ -1,5 +1,4 @@
 public with sharing class ValidarEmailTelefone {
-
     public static String sanitizarTelefone(String numeroTelefone) {
         String telefoneLimpo = numeroTelefone.replaceAll('[^0-9]', '');
 
